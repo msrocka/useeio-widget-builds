@@ -16,7 +16,7 @@ call npm run clean
 call npm run build
 
 echo create the API doc
-call typedoc --jsx react --disableSources --ignoreCompilerErrors --out %home%\docs\apidoc src
+call typedoc --disableSources --out %home%\docs\apidoc src
 
 echo copy the files
 cd %home%
