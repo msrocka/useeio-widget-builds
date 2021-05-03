@@ -70,22 +70,70 @@
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Variables</h3>
+							<h3>Interfaces</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-variable tsd-parent-kind-module"><a href="config.html#default_indicators" class="tsd-kind-icon">DEFAULT_<wbr>INDICATORS</a></li>
+								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/config.config-1.html" class="tsd-kind-icon">Config</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Functions</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="config.html#parseconfig" class="tsd-kind-icon">parse<wbr>Config</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="config.html#serializeconfig" class="tsd-kind-icon">serialize<wbr>Config</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Variables</h2>
-				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module">
-					<a name="default_indicators" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagConst">Const</span> DEFAULT_<wbr>INDICATORS</h3>
-					<div class="tsd-signature tsd-kind-icon">DEFAULT_<wbr>INDICATORS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = ...</span></div>
-					<aside class="tsd-sources">
-					</aside>
+				<h2>Functions</h2>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="parseconfig" class="tsd-anchor"></a>
+					<h3>parse<wbr>Config</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">parse<wbr>Config<span class="tsd-signature-symbol">(</span>s<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/config.config-1.html" class="tsd-signature-type" data-tsd-kind="Interface">Config</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Parses a configuration from the given string. The format is expected to be
+										exactly like in the parameter part of an URL, thus, a set of key-value pairs
+										where the pairs are separated by <code>&amp;</code> and the keys from the values by <code>=</code>, e.g.
+									&quot;page=42&amp;count=10&quot;.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>s: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/config.config-1.html" class="tsd-signature-type" data-tsd-kind="Interface">Config</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="serializeconfig" class="tsd-anchor"></a>
+					<h3>serialize<wbr>Config</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">serialize<wbr>Config<span class="tsd-signature-symbol">(</span>config<span class="tsd-signature-symbol">: </span><a href="../interfaces/config.config-1.html" class="tsd-signature-type" data-tsd-kind="Interface">Config</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>config: <a href="../interfaces/config.config-1.html" class="tsd-signature-type" data-tsd-kind="Interface">Config</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
 				</section>
 			</section>
 		</div>
@@ -102,8 +150,14 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-variable tsd-parent-kind-module">
-						<a href="config.html#default_indicators" class="tsd-kind-icon">DEFAULT_<wbr>INDICATORS</a>
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="../interfaces/config.config-1.html" class="tsd-kind-icon">Config</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="config.html#parseconfig" class="tsd-kind-icon">parse<wbr>Config</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="config.html#serializeconfig" class="tsd-kind-icon">serialize<wbr>Config</a>
 					</li>
 				</ul>
 			</nav>
